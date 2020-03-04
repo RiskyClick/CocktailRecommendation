@@ -1,3 +1,7 @@
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.lang.reflect.Array;
 import java.nio.file.Path;
 import java.nio.file.WatchKey;
@@ -5,28 +9,22 @@ import java.util.*;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         HashMap<String, Integer> profile = new HashMap<String, Integer>();
         String[] ar = { "notsweet","sweat","bitter","notbitter","fruity","sour","refreshing"
                         ,"rum","mezcal","tequila","gin","whisky","bourbon","vodka","scotch"
                         ,"strong", "weak","floral","herbal"};
 
-        Cocktail WhiskeySour = new Cocktail("Whiskey Sour");
-        Cocktail Negroni = new Cocktail("Negroni");
-        WhiskeySour.add("bitter", -3);
-        WhiskeySour.add("sweat", 3);
-        WhiskeySour.add("salty", 0);
-        WhiskeySour.add("refreshing", 3);
-        WhiskeySour.add("whisky", 5);
-        WhiskeySour.add("bourbon", 5);
+        File file = new File("C:\\Users\\Keith\\Documents\\School\\Classes\\CSC664\\FinalProject\\CocktailRecommendation\\src\\CocktailList");
 
-        Negroni.add("bitter", 4);
-        Negroni.add("sweat", -4);
-        Negroni.add("salty", 0);
-        Negroni.add("refreshing", -2);
-        Negroni.add("gin", 5);
-        Negroni.add("whisky", -5);
+        BufferedReader br = new BufferedReader(new FileReader(file));
+
+        String st;
+        while ((st = br.readLine()) != null) {
+
+        }
+
 
         List<String> stopWords = Arrays.asList(ar);
         ArrayList<String> finalCut = new ArrayList<>();
@@ -44,22 +42,5 @@ public class Main {
             }
         }
 
-        for(int i = 0; i < finalCut.size(); i++){
-            WhiskeySour.explore(finalCut.get(i));
-            Negroni.explore(finalCut.get(i));
-        }
-        System.out.println(profile.size());
-
-        if(WhiskeySour.getScore() > Negroni.getScore()){
-            System.out.println(WhiskeySour.getScore());
-            System.out.println((Negroni.getScore()));
-            System.out.println("You should try a: " + WhiskeySour.getName());
-        } else {
-            System.out.println(WhiskeySour.getScore());
-            System.out.println((Negroni.getScore()));
-            System.out.println("You should try a: " + Negroni.getName());
-        }
-
-	// write your code here
     }
 }

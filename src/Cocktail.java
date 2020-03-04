@@ -11,6 +11,10 @@ public class Cocktail {
         this.score = 0;
     }
 
+    public Cocktail() {
+        this.score = 0;
+    }
+
     public void add(String flavor, int rank){
         this.profile.put(flavor, rank);
     }
@@ -30,5 +34,9 @@ public class Cocktail {
 
     public String getName(){
         return this.name;
+    }
+
+    public void setName(String name){
+        this.name = name;
     }
 }
