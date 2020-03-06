@@ -5,13 +5,18 @@ import java.io.IOException;
 import java.lang.reflect.Array;
 import java.nio.file.Path;
 import java.nio.file.WatchKey;
+import java.text.CollationKey;
 import java.util.*;
 
 public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        HashMap<String, Integer> profile = new HashMap<String, Integer>();
+        ArrayList<HashMap> flavorList = new ArrayList<>();
+        ArrayList<Cocktail> cocktailList = new ArrayList<>();
+        HashMap<String, Integer> flavors = new HashMap<>();
+
+
         String[] ar = { "notsweet","sweat","bitter","notbitter","fruity","sour","refreshing"
                         ,"rum","mezcal","tequila","gin","whisky","bourbon","vodka","scotch"
                         ,"strong", "weak","floral","herbal"};
@@ -22,7 +27,17 @@ public class Main {
 
         String st;
         while ((st = br.readLine()) != null) {
-
+            if(st.charAt(0) == '~'){
+                cocktailList.add( new Cocktail(st.substring(1)));
+                flavorList.add(new HashMap());
+            }
+            else {
+                String[] split = st.split("(?<=\\D)(?=\\d)");
+                String dis = split[0];
+                int rank = Integer.parseInt(split[1]);
+                System.out.println(dis + "there shoudl also be negatives" + rank);
+                flavors.put(dis, rank);
+            }
         }
 
 
