@@ -26,9 +26,11 @@ public class Main {
         BufferedReader br = new BufferedReader(new FileReader(file));
 
         String st;
+        int count = 0;
         while ((st = br.readLine()) != null) {
             if(st.charAt(0) == '~'){
                 cocktailList.add( new Cocktail(st.substring(1)));
+                cocktailList.get(count);
                 flavorList.add(new HashMap());
             }
             else {
@@ -54,10 +56,14 @@ public class Main {
         String[] arr = input.split("\\s");
         List<String> preStop = Arrays.asList(arr);
 
+        System.out.println(cocktailList.size());
+        System.out.println(flavorList.size());
+        System.out.println(flavorList.get(5));
+        for (Cocktail cock : cocktailList){
+        }
+
         for(int i = 0; i < preStop.size(); i++){
-            if(stopWords.contains(preStop.get(i))){
-                finalCut.add(preStop.get(i));
-            }
+
         }
 
     }

@@ -243,6 +243,144 @@ notsweat2
 bitter2
 notbitter-2
 salty0
+notsalty0
+sour-3
+notsour2
+gin5
+vodka5
+lemon3
+refreshing1
+savory2
+sharp3
+acid-2
+biting3
+dry3
+fruity-3
+harsh3
+hot0
+spicy0
+juicy-3
+rich1
+strong4
+tart-1
+unsweetened3
+~Long Island Iced Tea
+sweat3
+notsweat-3
+bitter-2
+notbitter-2
+salty0
+notsalty0
+sour1
+notsour-1
+tequila5
+gin5
+vodka5
+rum5
+lemon2
+refreshing1
+savory0
+sharp2
+acid-2
+biting2
+dry-2
+fruity-1
+harsh3
+hot0
+spicy0
+juicy1
+rich1
+strong5
+tart1
+unsweetened-3
+~Mint Julep
+sweat2
+notsweat-2
+bitter-2
+notbitter2
+salty0
+notsalty0
+sour4
+notsour-4
+whiskey5
+bourbon5
+lemon4
+lime4
+minty4
+refreshing4
+savory1
+sharp-1
+acid3
+biting-1
+dry-1
+fruity2
+harsh-2
+hot0
+spicy0
+juicy2
+rich1
+strong2
+tart3
+unsweetened-2
+~Side Car
+sweat3
+notsweat-3
+bitter-2
+notbitter2
+salty0
+notsalty0
+sour2
+notsour-2
+brandy5
+cognac5
+lemon4
+refreshing3
+savory2
+sharp-1
+acid2
+biting-1
+dry-2
+fruity2
+harsh-2
+hot0
+spicy0
+juicy3
+rich3
+strong1
+tart2
+unsweetened-2
+~French 75
+sweat2
+notsweat-2
+bitter-2
+notbitter2
+salty0
+notsalty0
+sour3
+notsour-3
+gin5
+lemon4
+refreshing3
+savory1
+sharp-1
+acid3
+biting-1
+dry-1
+fruity2
+harsh-2
+hot0
+spicy0
+juicy3
+rich1
+strong1
+tart4
+unsweetened-2
+~Sazerac
+sweat2
+notsweat0
+bitter-1
+notbitter2
+salty0
 notsalty4
 sour4
 notsour-4
@@ -264,422 +402,272 @@ rich4
 strong2
 tart4
 unsweetened-2
-Long Island Iced Tea
-    sweat
-    notsweat
-    bitter
-    notbitter
-    salty
-    notsalty
-    sour
-    notsour
-    whiskey
-    bourbon
-    lemon
-    refreshing
-    savory
-    sharp
-    acid
-    biting
-    dry
-    fruity
-    harsh
-    hot
-    spicy
-    juicy
-    rich
-    strong
-    tart
-    unsweetened
-
-Mint Julep
-    sweat
-    notsweat
-    bitter
-    notbitter
-    salty
-    notsalty
-    sour
-    notsour
-    whiskey
-    bourbon
-    lemon
-    refreshing
-    savory
-    sharp
-    acid
-    biting
-    dry
-    fruity
-    harsh
-    hot
-    spicy
-    juicy
-    rich
-    strong
-    tart
-    unsweetened
-
-Side Car
-    sweat
-    notsweat
-    bitter
-    notbitter
-    salty
-    notsalty
-    sour
-    notsour
-    whiskey
-    bourbon
-    lemon
-    refreshing
-    savory
-    sharp
-    acid
-    biting
-    dry
-    fruity
-    harsh
-    hot
-    spicy
-    juicy
-    rich
-    strong
-    tart
-    unsweetened
-
-French 75
-    sweat
-    notsweat
-    bitter
-    notbitter
-    salty
-    notsalty
-    sour
-    notsour
-    whiskey
-    bourbon
-    lemon
-    refreshing
-    savory
-    sharp
-    acid
-    biting
-    dry
-    fruity
-    harsh
-    hot
-    spicy
-    juicy
-    rich
-    strong
-    tart
-    unsweetened
-
-Sazerac
-    sweat
-    notsweat
-    bitter
-    notbitter
-    salty
-    notsalty
-    sour
-    notsour
-    whiskey
-    bourbon
-    lemon
-    refreshing
-    savory
-    sharp
-    acid
-    biting
-    dry
-    fruity
-    harsh
-    hot
-    spicy
-    juicy
-    rich
-    strong
-    tart
-    unsweetened
-
-Mie Tai
-    sweat
-    notsweat
-    bitter
-    notbitter
-    salty
-    notsalty
-    sour
-    notsour
-    whiskey
-    bourbon
-    lemon
-    refreshing
-    savory
-    sharp
-    acid
-    biting
-    dry
-    fruity
-    harsh
-    hot
-    spicy
-    juicy
-    rich
-    strong
-    tart
-    unsweetened
-
-White Russian
-    sweat
-    notsweat
-    bitter
-    notbitter
-    salty
-    notsalty
-    sour
-    notsour
-    whiskey
-    bourbon
-    lemon
-    refreshing
-    savory
-    sharp
-    acid
-    biting
-    dry
-    fruity
-    harsh
-    hot
-    spicy
-    juicy
-    rich
-    strong
-    tart
-    unsweetened
-
-Espresso Martini
-    sweat
-    notsweat
-    bitter
-    notbitter
-    salty
-    notsalty
-    sour
-    notsour
-    whiskey
-    bourbon
-    lemon
-    refreshing
-    savory
-    sharp
-    acid
-    biting
-    dry
-    fruity
-    harsh
-    hot
-    spicy
-    juicy
-    rich
-    strong
-    tart
-    unsweetened
-
-Gimlet
-    sweat
-    notsweat
-    bitter
-    notbitter
-    salty
-    notsalty
-    sour
-    notsour
-    whiskey
-    bourbon
-    lemon
-    refreshing
-    savory
-    sharp
-    acid
-    biting
-    dry
-    fruity
-    harsh
-    hot
-    spicy
-    juicy
-    rich
-    strong
-    tart
-    unsweetened
-
-Pina Colada
-    sweat
-    notsweat
-    bitter
-    notbitter
-    salty
-    notsalty
-    sour
-    notsour
-    whiskey
-    bourbon
-    lemon
-    refreshing
-    savory
-    sharp
-    acid
-    biting
-    dry
-    fruity
-    harsh
-    hot
-    spicy
-    juicy
-    rich
-    strong
-    tart
-    unsweetened
-
-Paloma
-    sweat
-    notsweat
-    bitter
-    notbitter
-    salty
-    notsalty
-    sour
-    notsour
-    whiskey
-    bourbon
-    lemon
-    refreshing
-    savory
-    sharp
-    acid
-    biting
-    dry
-    fruity
-    harsh
-    hot
-    spicy
-    juicy
-    rich
-    strong
-    tart
-    unsweetened
-
-Tom Collins
-    sweat
-    notsweat
-    bitter
-    notbitter
-    salty
-    notsalty
-    sour
-    notsour
-    whiskey
-    bourbon
-    lemon
-    refreshing
-    savory
-    sharp
-    acid
-    biting
-    dry
-    fruity
-    harsh
-    hot
-    spicy
-    juicy
-    rich
-    strong
-    tart
-    unsweetened
-
-Bloody Mary
-    sweat
-    notsweat
-    bitter
-    notbitter
-    salty
-    notsalty
-    sour
-    notsour
-    whiskey
-    bourbon
-    lemon
-    refreshing
-    savory
-    sharp
-    acid
-    biting
-    dry
-    fruity
-    harsh
-    hot
-    spicy
-    juicy
-    rich
-    strong
-    tart
-    unsweetened
-
-Aviation
-    sweat
-    notsweat
-    bitter
-    notbitter
-    salty
-    notsalty
-    sour
-    notsour
-    whiskey
-    bourbon
-    lemon
-    refreshing
-    savory
-    sharp
-    acid
-    biting
-    dry
-    fruity
-    harsh
-    hot
-    spicy
-    juicy
-    rich
-    strong
-    tart
-    unsweetened
-
-Vesper
-    sweat
-    notsweat
-    bitter
-    notbitter
-    salty
-    notsalty
-    sour
-    notsour
-    whiskey
-    bourbon
-    lemon
-    refreshing
-    savory
-    sharp
-    acid
-    biting
-    dry
-    fruity
-    harsh
-    hot
-    spicy
-    juicy
-    rich
-    strong
-    tart
-    unsweetened
+~Mai Tai
+sweat3
+notsweat-3
+bitter-3
+notbitter3
+salty2
+notsalty-2
+sour2
+notsour-2
+rum5
+coconut4
+pineapple4
+refreshing4
+savory2
+sharp-2
+acid2
+biting-2
+dry-2
+fruity3
+harsh-2
+hot0
+spicy0
+juicy3
+rich3
+strong1
+tart3
+unsweetened-3
+~White Russian
+sweat2
+notsweat-2
+bitter-2
+notbitter2
+salty2
+notsalty-2
+sour-4
+notsour-4
+vodka5
+chocolate4
+cream4
+refreshing2
+savory4
+sharp-2
+acid-3
+biting-2
+dry2
+fruity-3
+harsh-2
+hot0
+spicy0
+juicy-3
+rich4
+strong2
+tart-4
+unsweetened1
+~Espresso Martini
+sweat3
+notsweat-3
+bitter-2
+notbitter2
+salty1
+notsalty0
+sour-4
+notsour4
+vodka5
+caffeine5
+refreshing-1
+savory4
+sharp2
+acid-2
+biting2
+dry-1
+fruity-3
+harsh1
+hot0
+spicy0
+juicy-3
+rich3
+strong1
+tart-4
+unsweetened-3
+~Gimlet
+sweat2
+notsweat-2
+bitter-2
+notbitter2
+salty0
+notsalty0
+sour4
+notsour-4
+gin5
+vodka5
+lime4
+refreshing3
+savory2
+sharp3
+acid3
+biting1
+dry-1
+fruity2
+harsh-2
+hot0
+spicy0
+juicy3
+rich1
+strong1
+tart4
+unsweetened-2
+~Pina Colada
+sweat3
+notsweat-3
+bitter-3
+notbitter3
+salty2
+notsalty-2
+sour2
+notsour-2
+rum5
+tiki5
+coconut4
+pineapple5
+refreshing3
+savory4
+sharp2
+acid3
+biting-1
+dry-2
+fruity3
+harsh-2
+hot0
+spicy0
+juicy3
+rich4
+strong2
+tart4
+unsweetened-3
+~Paloma
+sweat3
+notsweat-3
+bitter-3
+notbitter2
+salty3
+notsalty-3
+sour4
+notsour-4
+tequila5
+mezcal5
+lime4
+grapefruit4
+refreshing3
+savory1
+sharp-1
+acid3
+biting-1
+dry-2
+fruity3
+harsh-2
+hot3
+spicy3
+juicy3
+rich1
+strong1
+tart4
+unsweetened-2
+~Tom Collins
+sweat2
+notsweat-2
+bitter-2
+notbitter2
+salty1
+notsalty0
+sour3
+notsour-3
+gin5
+vodka5
+lemon4
+refreshing3
+savory1
+sharp1
+acid3
+biting-2
+dry-2
+fruity2
+harsh-2
+hot0
+spicy0
+juicy2
+rich-1
+strong1
+tart4
+unsweetened-2
+~Bloody Mary
+sweat-2
+notsweat2
+bitter-2
+notbitter2
+salty4
+notsalty-4
+sour1
+notsour-1
+vodka5
+lemon1
+refreshing-1
+savory4
+sharp2
+acid3
+biting-1
+dry-2
+fruity-3
+harsh1
+hot-3
+spicy-3
+juicy1
+rich4
+strong2
+tart-2
+unsweetened3
+~Aviation
+sweat1
+notsweat-1
+bitter-2
+notbitter2
+salty0
+notsalty0
+sour2
+notsour-2
+gin5
+lemon2
+refreshing2
+savory1
+sharp1
+acid1
+biting1
+dry2
+fruity1
+harsh-2
+hot0
+spicy0
+juicy-2
+rich-2
+strong2
+tart1
+unsweetened1
+~Vesper
+sweat-3
+notsweat3
+bitter3
+notbitter-3
+salty0
+notsalty0
+sour-3
+notsour3
+vodka5
+gin5
+lemon1
+refreshing-3
+savory-2
+sharp3
+acid-1
+biting3
+dry3
+fruity-3
+harsh2
+hot0
+spicy0
+juicy-2
+rich1
+strong3
+tart-2
+unsweetened2
