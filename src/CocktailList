@@ -104,173 +104,166 @@ rich3
 strong3
 tart-2
 ~Manhattan
-    sweat
-    notsweat
-    bitter
-    notbitter
-    salty
-    notsalty
-    sour
-    notsour
-    whiskey
-    bourbon
-    lemon
-    refreshing
-    savory
-    sharp
-    acid
-    biting
-    dry
-    fruity
-    harsh
-    hot
-    spicy
-    juicy
-    rich
-    strong
-    tart
-    unsweetened
-
-Mojito
-    sweat
-    notsweat
-    bitter
-    notbitter
-    salty
-    notsalty
-    sour
-    notsour
-    whiskey
-    bourbon
-    lemon
-    refreshing
-    savory
-    sharp
-    acid
-    biting
-    dry
-    fruity
-    harsh
-    hot
-    spicy
-    juicy
-    rich
-    strong
-    tart
-    unsweetened
-
-Moscow Mule
-    sweat
-    notsweat
-    bitter
-    notbitter
-    salty
-    notsalty
-    sour
-    notsour
-    whiskey
-    bourbon
-    lemon
-    refreshing
-    savory
-    sharp
-    acid
-    biting
-    dry
-    fruity
-    harsh
-    hot
-    spicy
-    juicy
-    rich
-    strong
-    tart
-    unsweetened
-
-Daiquiri
-    sweat
-    notsweat
-    bitter
-    notbitter
-    salty
-    notsalty
-    sour
-    notsour
-    whiskey
-    bourbon
-    lemon
-    refreshing
-    savory
-    sharp
-    acid
-    biting
-    dry
-    fruity
-    harsh
-    hot
-    spicy
-    juicy
-    rich
-    strong
-    tart
-    unsweetened
-
-Cosmopolitan
-    sweat
-    notsweat
-    bitter
-    notbitter
-    salty
-    notsalty
-    sour
-    notsour
-    whiskey
-    bourbon
-    lemon
-    refreshing
-    savory
-    sharp
-    acid
-    biting
-    dry
-    fruity
-    harsh
-    hot
-    spicy
-    juicy
-    rich
-    strong
-    tart
-    unsweetened
-
-Martini
-    sweat
-    notsweat
-    bitter
-    notbitter
-    salty
-    notsalty
-    sour
-    notsour
-    whiskey
-    bourbon
-    lemon
-    refreshing
-    savory
-    sharp
-    acid
-    biting
-    dry
-    fruity
-    harsh
-    hot
-    spicy
-    juicy
-    rich
-    strong
-    tart
-    unsweetened
-
+sweat0
+notsweat2
+bitter0
+notbitter0
+salty0
+notsalty0
+sour-3
+notsour3
+whiskey5
+bourbon5
+rye5
+lemon-3
+refreshing-1
+savory2
+sharp3
+acid-2
+biting3
+dry3
+fruity-3
+harsh3
+hot0
+spicy0
+juicy-3
+rich3
+strong3
+tart-3
+unsweetened0
+~Mojito
+sweat3
+notsweat-2
+bitter-2
+notbitter2
+salty0
+notsalty0
+sour4
+notsour-4
+rum5
+lime4
+refreshing5
+savory2
+sharp0
+acid3
+biting-2
+dry-1
+fruity2
+harsh-2
+hot0
+spicy0
+juicy3
+rich-1
+strong2
+tart4
+unsweetened-3
+~Moscow Mule
+sweat3
+notsweat-2
+bitter-2
+notbitter2
+salty0
+notsalty0
+sour2
+notsour-2
+vodka5
+lime3
+ginger4
+refreshing3
+savory4
+sharp2
+acid3
+biting2
+dry-2
+fruity1
+harsh-2
+hot0
+spicy0
+juicy3
+rich3
+strong2
+tart4
+unsweetened-2
+~Daiquiri
+sweat3
+notsweat-3
+bitter-2
+notbitter2
+salty0
+notsalty0
+sour4
+notsour-4
+rum5
+lime4
+refreshing4
+savory2
+sharp0
+acid3
+biting-1
+dry-1
+fruity3
+harsh-2
+hot0
+spicy0
+juicy3
+rich-1
+strong3
+tart4
+unsweetened-2
+~Cosmopolitan
+sweat3
+notsweat-3
+bitter-2
+notbitter3
+salty0
+notsalty0
+sour1
+notsour-1
+vodka5
+grapefruit4
+cranberry4
+refreshing4
+savory2
+sharp-2
+acid3
+biting-2
+dry-2
+fruity3
+harsh-2
+hot0
+spicy0
+juicy3
+rich1
+strong-1
+tart4
+unsweetened-2
+~Martini
+sweat-2
+notsweat2
+bitter2
+notbitter-2
+salty0
+notsalty4
+sour4
+notsour-4
+whiskey5
+bourbon5
+lemon4
+refreshing3
+savory4
+sharp2
+acid3
+biting1
+dry1
+fruity3
+harsh-2
+hot-2
+spicy-3
+juicy3
+rich4
+strong2
+tart4
+unsweetened-2
 Long Island Iced Tea
     sweat
     notsweat

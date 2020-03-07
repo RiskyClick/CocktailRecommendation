@@ -35,7 +35,10 @@ public class Main {
                 String[] split = st.split("(?<=\\D)(?=\\d)");
                 String dis = split[0];
                 int rank = Integer.parseInt(split[1]);
-                System.out.println(dis + "there shoudl also be negatives" + rank);
+                if(dis.charAt(dis.length() - 1) == '-'){
+                    rank *= -1;
+                    dis = dis.replaceAll("-", "");
+                }
                 flavors.put(dis, rank);
             }
         }
