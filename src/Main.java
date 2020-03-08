@@ -8,6 +8,8 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
+        new Gui();
+
         ArrayList<HashMap> flavorList = new ArrayList<>();
         ArrayList<Cocktail> cocktailList = new ArrayList<>();
 
@@ -34,13 +36,6 @@ public class Main {
                 flavorList.get(count).put(dis, rank);
             }
         }
-
-        System.out.println("What sounds good to you?");
-        Scanner scanner = new Scanner(System.in);
-        String input = scanner.nextLine().toLowerCase().replaceAll("not ", "not");
-
-        String[] arr = input.split("\\s");
-        List<String> preStop = Arrays.asList(arr);
 
         for(String s : preStop){
             for(Cocktail c : cocktailList){
