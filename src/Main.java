@@ -2,10 +2,6 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
-import java.lang.reflect.Array;
-import java.nio.file.Path;
-import java.nio.file.WatchKey;
-import java.text.CollationKey;
 import java.util.*;
 
 public class Main {
@@ -14,24 +10,18 @@ public class Main {
 
         ArrayList<HashMap> flavorList = new ArrayList<>();
         ArrayList<Cocktail> cocktailList = new ArrayList<>();
-        HashMap<String, Integer> flavors = new HashMap<>();
-
-
-        String[] ar = { "notsweet","sweat","bitter","notbitter","fruity","sour","refreshing"
-                        ,"rum","mezcal","tequila","gin","whisky","bourbon","vodka","scotch"
-                        ,"strong", "weak","floral","herbal"};
 
         File file = new File("C:\\Users\\Keith\\Documents\\School\\Classes\\CSC664\\FinalProject\\CocktailRecommendation\\src\\CocktailList");
 
         BufferedReader br = new BufferedReader(new FileReader(file));
 
         String st;
-        int count = 0;
+        int count = -1;
         while ((st = br.readLine()) != null) {
             if(st.charAt(0) == '~'){
-                cocktailList.add( new Cocktail(st.substring(1)));
-                cocktailList.get(count);
                 flavorList.add(new HashMap());
+                cocktailList.add( new Cocktail(st.substring(1), flavorList.get(flavorList.size() - 1)));
+                count++;
             }
             else {
                 String[] split = st.split("(?<=\\D)(?=\\d)");
@@ -41,13 +31,9 @@ public class Main {
                     rank *= -1;
                     dis = dis.replaceAll("-", "");
                 }
-                flavors.put(dis, rank);
+                flavorList.get(count).put(dis, rank);
             }
         }
-
-
-        List<String> stopWords = Arrays.asList(ar);
-        ArrayList<String> finalCut = new ArrayList<>();
 
         System.out.println("What sounds good to you?");
         Scanner scanner = new Scanner(System.in);
@@ -56,15 +42,21 @@ public class Main {
         String[] arr = input.split("\\s");
         List<String> preStop = Arrays.asList(arr);
 
-        System.out.println(cocktailList.size());
-        System.out.println(flavorList.size());
-        System.out.println(flavorList.get(5));
-        for (Cocktail cock : cocktailList){
+        for(String s : preStop){
+            for(Cocktail c : cocktailList){
+                if(c.explore(s)){
+                }
+            }
         }
 
-        for(int i = 0; i < preStop.size(); i++){
-
+        Cocktail choice = cocktailList.get(0);
+        for(int i = 0; i < cocktailList.size(); i++){
+            if(choice.getScore() < cocktailList.get(i).getScore()){
+                choice = cocktailList.get(i);
+            }
         }
+
+        System.out.println("Try a " + choice.getName() + ".");
 
     }
 }
