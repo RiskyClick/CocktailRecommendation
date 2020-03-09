@@ -9,14 +9,15 @@ public class DrinkAlgo {
     private ArrayList<Cocktail> cocktailList = new ArrayList<>();
     private List<String> preStop;
     private File file = new File("C:\\Users\\Keith\\Documents\\School\\Classes\\CSC664\\FinalProject\\CocktailRecommendation\\src\\CocktailList");
+    String choice;
 
 
     public DrinkAlgo(List<String> preStop) throws IOException {
         this.preStop = preStop;
-        algo(flavorList, cocktailList, file);
+        this.choice = algo(flavorList, cocktailList, file);
     }
 
-    private Cocktail algo(ArrayList<HashMap> flavorList, ArrayList<Cocktail> cocktailList, File file) throws IOException {
+    private String algo(ArrayList<HashMap> flavorList, ArrayList<Cocktail> cocktailList, File file) throws IOException {
 
         BufferedReader br = new BufferedReader(new FileReader(this.file));
         String st;
@@ -52,6 +53,10 @@ public class DrinkAlgo {
                 choice = cocktailList.get(i);
             }
         }
-        return choice;
+        return choice.getName();
+    }
+
+    public String getName() {
+        return this.choice;
     }
 }

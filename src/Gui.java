@@ -2,54 +2,74 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
+import javax.swing.*;
 
-public class Gui extends Frame implements ActionListener {
+public class Gui extends JFrame implements ActionListener {
 
-    private Label lable;
-    private Label output;
-    private TextField  textBlock;
-    private Button button;
+    JTextField userInput;
+    JButton submit;
+    JLabel instructions, outPut;
+    List<String> preStop = new ArrayList<>();
+    DrinkAlgo choice;
 
-    public Gui(){
-        setLayout(new FlowLayout());
+    Gui(){
+        JFrame theWindow = new JFrame("Cocktail Picker");
+        theWindow.setLayout(new GridLayout(4, 3));
+        theWindow.getContentPane().setBackground( Color.BLACK );
 
-        lable = new Label("Enter in some flavors for a drink you would like");
-        add(lable);
+        instructions = new JLabel("What Sounds Good To You?", SwingConstants.CENTER);
+        instructions.setFont(new Font("Courier New", Font.PLAIN, 20));
+        instructions.setForeground(Color.WHITE);
+        theWindow.add(instructions);
 
-        textBlock = new TextField(); // construct the TextField component with initial text
-        textBlock.setEditable(false);       // set to read-only
-        add(textBlock);
+        userInput = new JTextField();
+        userInput.setFont(new Font("Courier New", Font.PLAIN, 20));
+        userInput.setBackground(Color.WHITE);
+        userInput.setForeground(Color.BLACK);
+        theWindow.add(userInput);
+        userInput.addActionListener(this);
 
-        button = new Button("Find Me A Drink!");   // construct the Button component
-        add(button);                    // "super" Frame container adds Button component
+        submit = new JButton("Find Me A Drink!");
+        submit.setFont(new Font("Courier New", Font.PLAIN, 20));
+        submit.setBackground(Color.LIGHT_GRAY);
+        submit.setForeground(Color.BLACK);
+        theWindow.add(submit);
+        submit.addActionListener(this);
 
-        textBlock.addActionListener(this);
+        outPut = new JLabel("", SwingConstants.CENTER);
+        outPut.setFont(new Font("Courier New", Font.PLAIN, 20));
+        outPut.setForeground(Color.WHITE);
+        theWindow.add(outPut);
 
-        setTitle("Cocktail Chooser");
-        setSize(250, 100);
-
-        setVisible(true);
+        theWindow.setSize(800, 200);
+        theWindow.setVisible(true);
+        theWindow.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
     }
 
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
-        String input = textBlock.getText();
+        String input = userInput.getText();
         input = input.toLowerCase().replaceAll("not ", "not");
 
         String[] arr = input.split("\\s");
-        List<String> preStop = Arrays.asList(arr);
+        preStop = Arrays.asList(arr);
 
         try {
-            new DrinkAlgo(preStop);
+            choice = new DrinkAlgo(preStop);
         } catch (IOException e) {
             e.printStackTrace();
         }
-        textBlock.setText("");
+        userInput.setText("");
 
-
+        if (preStop.size() < 2) {
+            outPut.setText("A Shot Of Tequila!");
+        } else {
+            outPut.setText("You Should Try A " + choice.getName());
+        }
     }
+
 }
