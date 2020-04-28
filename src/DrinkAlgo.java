@@ -12,6 +12,7 @@ public class DrinkAlgo {
     String choice;
 
 
+
     public DrinkAlgo(List<String> preStop) throws IOException {
         this.preStop = preStop;
         this.choice = algo(flavorList, cocktailList, file);
@@ -57,6 +58,11 @@ public class DrinkAlgo {
     }
 
     public String getName() {
+        try (PrintWriter out = new PrintWriter("TrendingCocktails.txt")) {
+            out.println(this.choice);
+        }catch ( IOException e){
+            System.out.println(e);
+        }
         return this.choice;
     }
 }

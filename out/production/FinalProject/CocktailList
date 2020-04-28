@@ -1,6 +1,6 @@
 ~Whiskey Sour
-sweat2
-notsweat0
+sweet2
+notsweet0
 bitter-1
 notbitter2
 salty0
@@ -26,8 +26,8 @@ strong2
 tart4
 unsweetened-2
 ~Margarita
-sweat2
-notsweat0
+sweet2
+notsweet0
 bitter-1
 notbitter2
 salty4
@@ -52,8 +52,8 @@ rich2
 strong2
 tart4
 ~Negroni
-sweat-3
-notsweat3
+sweet-3
+notsweet3
 bitter4
 notbitter-4
 salty0
@@ -78,8 +78,8 @@ rich3
 strong4
 tart-3
 ~Old Fashion
-sweat2
-notsweat-2
+sweet2
+notsweet-2
 bitter-1
 notbitter2
 salty0
@@ -104,8 +104,8 @@ rich3
 strong3
 tart-2
 ~Manhattan
-sweat0
-notsweat2
+sweet0
+notsweet2
 bitter0
 notbitter0
 salty0
@@ -132,8 +132,8 @@ strong3
 tart-3
 unsweetened0
 ~Mojito
-sweat3
-notsweat-2
+sweet3
+notsweet-2
 bitter-2
 notbitter2
 salty0
@@ -158,8 +158,8 @@ strong2
 tart4
 unsweetened-3
 ~Moscow Mule
-sweat3
-notsweat-2
+sweet3
+notsweet-2
 bitter-2
 notbitter2
 salty0
@@ -185,8 +185,8 @@ strong2
 tart4
 unsweetened-2
 ~Daiquiri
-sweat3
-notsweat-3
+sweet3
+notsweet-3
 bitter-2
 notbitter2
 salty0
@@ -211,8 +211,8 @@ strong3
 tart4
 unsweetened-2
 ~Cosmopolitan
-sweat3
-notsweat-3
+sweet3
+notsweet-3
 bitter-2
 notbitter3
 salty0
@@ -238,8 +238,8 @@ strong-1
 tart4
 unsweetened-2
 ~Martini
-sweat-2
-notsweat2
+sweet-2
+notsweet2
 bitter2
 notbitter-2
 salty0
@@ -265,8 +265,8 @@ strong4
 tart-1
 unsweetened3
 ~Long Island Iced Tea
-sweat3
-notsweat-3
+sweet3
+notsweet-3
 bitter-2
 notbitter-2
 salty0
@@ -294,8 +294,8 @@ strong5
 tart1
 unsweetened-3
 ~Mint Julep
-sweat2
-notsweat-2
+sweae2
+notsweet-2
 bitter-2
 notbitter2
 salty0
@@ -323,8 +323,8 @@ strong2
 tart3
 unsweetened-2
 ~Side Car
-sweat3
-notsweat-3
+sweet3
+notsweet-3
 bitter-2
 notbitter2
 salty0
@@ -350,8 +350,8 @@ strong1
 tart2
 unsweetened-2
 ~French 75
-sweat2
-notsweat-2
+sweet2
+notsweet-2
 bitter-2
 notbitter2
 salty0
@@ -376,8 +376,8 @@ strong1
 tart4
 unsweetened-2
 ~Sazerac
-sweat2
-notsweat0
+sweet-2
+notsweet2
 bitter-1
 notbitter2
 salty0
@@ -403,8 +403,8 @@ strong2
 tart4
 unsweetened-2
 ~Mai Tai
-sweat3
-notsweat-3
+sweet3
+notsweet-3
 bitter-3
 notbitter3
 salty2
@@ -412,7 +412,8 @@ notsalty-2
 sour2
 notsour-2
 rum5
-coconut4
+Nutty4
+coconut0
 pineapple4
 refreshing4
 savory2
@@ -430,8 +431,8 @@ strong1
 tart3
 unsweetened-3
 ~White Russian
-sweat2
-notsweat-2
+sweet2
+notsweet-2
 bitter-2
 notbitter2
 salty2
@@ -457,8 +458,8 @@ strong2
 tart-4
 unsweetened1
 ~Espresso Martini
-sweat3
-notsweat-3
+sweet3
+notsweet-3
 bitter-2
 notbitter2
 salty1
@@ -481,10 +482,11 @@ juicy-3
 rich3
 strong1
 tart-4
+coffee5
 unsweetened-3
 ~Gimlet
-sweat2
-notsweat-2
+sweet2
+notsweet-2
 bitter-2
 notbitter2
 salty0
@@ -510,8 +512,8 @@ strong1
 tart4
 unsweetened-2
 ~Pina Colada
-sweat3
-notsweat-3
+sweet3
+notsweet-3
 bitter-3
 notbitter3
 salty2
@@ -538,8 +540,8 @@ strong2
 tart4
 unsweetened-3
 ~Paloma
-sweat3
-notsweat-3
+sweet3
+notsweet-3
 bitter-3
 notbitter2
 salty3
@@ -566,8 +568,8 @@ strong1
 tart4
 unsweetened-2
 ~Tom Collins
-sweat2
-notsweat-2
+sweet2
+notsweet-2
 bitter-2
 notbitter2
 salty1
@@ -593,8 +595,8 @@ strong1
 tart4
 unsweetened-2
 ~Bloody Mary
-sweat-2
-notsweat2
+sweet-2
+notsweet2
 bitter-2
 notbitter2
 salty4
@@ -619,8 +621,8 @@ strong2
 tart-2
 unsweetened3
 ~Aviation
-sweat1
-notsweat-1
+sweet1
+notsweet-1
 bitter-2
 notbitter2
 salty0
@@ -645,8 +647,8 @@ strong2
 tart1
 unsweetened1
 ~Vesper
-sweat-3
-notsweat3
+sweet-3
+notsweet3
 bitter3
 notbitter-3
 salty0
