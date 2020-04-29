@@ -74,14 +74,14 @@ public class Gui extends JFrame implements ActionListener {
         userInput.setText("");
 
         if (preStop.size() < 2) {
-            outPut.setText("A Shot Of Tequila!");
+            outPut.setText("\n\n\nA Shot Of Tequila!");
         } else {
-            outPut.setText("You Should Try A " + choice.getName());
+            outPut.setText("\n\n\nYou Should Try A " + choice.getName());
         }
 
         try {
             trend = new TrendingCocktail();
-            trendingCocktail.setText("\n" + trend.getTrending() + " Is trending");
+            trendingCocktail.setText("\n\n\n" + trend.getTrending() + " Is trending");
         } catch (IOException e) {
             e.printStackTrace();
         }

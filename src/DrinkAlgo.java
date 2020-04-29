@@ -58,10 +58,13 @@ public class DrinkAlgo {
     }
 
     public String getName() {
-        try (PrintWriter out = new PrintWriter("TrendingCocktails.txt")) {
-            out.println(this.choice);
-        }catch ( IOException e){
-            System.out.println(e);
+        try (FileWriter f = new FileWriter("TrendingCocktails.txt", true);
+             BufferedWriter b = new BufferedWriter(f);
+             PrintWriter p = new PrintWriter(b)) {
+            p.println(this.choice);
+
+        } catch (IOException i) {
+            i.printStackTrace();
         }
         return this.choice;
     }
