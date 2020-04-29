@@ -4,3 +4,7 @@ Espresso Martini
 Whiskey Sour
 Negroni
 Negroni
+Paloma
+Negroni
+Whiskey Sour
+Old Fashion

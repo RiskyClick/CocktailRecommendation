@@ -52,7 +52,7 @@ public class Gui extends JFrame implements ActionListener {
         trendingCocktail.setForeground(Color.BLACK);
         theWindow.add(trendingCocktail);
 
-        theWindow.setSize(800, 200);
+        theWindow.setSize(800, 500);
         theWindow.setVisible(true);
         theWindow.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
